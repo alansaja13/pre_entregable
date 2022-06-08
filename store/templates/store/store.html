@@ -1,0 +1,49 @@
+{%extends 'store/main.html'%}
+{% load static %}
+{%block content%}
+
+<div class="row">
+  <div class="col-lg-4">
+    <img class= "thumbnail" src="{% static 'images/placeholder.png' %}">
+      
+    <div class="box-element product">
+        <h6><strong>Producto</strong></h6>
+        <hr>
+        <button class="btn btn-outline-secondary add-btn">
+          Agregar al carrito
+        </button>
+        <a class="btn btn-outline-success" href="#">Ver </a>
+        <h4 style="float:right">$0</h4>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <img class= "thumbnail" src="{% static 'images/placeholder.png' %}">
+      
+    <div class="box-element product">
+        <h6><strong>Producto</strong></h6>
+        <hr>
+        <button class="btn btn-outline-secondary add-btn">
+          Agregar al carrito
+        </button>
+        <a class="btn btn-outline-success" href="#">Ver </a>
+        <h4 style=" float:right">$0</h4>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <img class= "thumbnail" src="{% static 'images/placeholder.png' %}">
+      
+    <div class="box-element product">
+        <h6><strong>Producto</strong></h6>
+        <hr>
+        <button class="btn btn-outline-secondary add-btn">
+          Agregar al carrito
+        </button>
+        <a class="btn btn-outline-success" href="#">Ver </a>
+        <h4 style="float:right">$0</h4>
+        <!--FLOAT NO ME APARECE SUBRAYADO EN AMARILLO, NO Sé PORQUE(inline-block) JAJA-->
+    </div>
+  </div>
+</div>
+{%endblock%}
